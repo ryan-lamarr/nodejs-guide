@@ -7,9 +7,11 @@ npm whoami
 ```
 npm adduser  // 注册npm用户
 npm init  // 初始化npm包配置，生成package.json
-npm login  // npm用户登录
+npm login  // npm用户登录  
+
 npm publish  // 发布npm包
-npm unpublish 包名   // 撤销发布包
+npm unpublish 包名   // 撤销发布包  
+
 npm deprecate 包名 [@版本] “描述”  // 删除包
 npm ls  // 查看安装了哪些包
 npm get prefix  // 查看包安装路径
